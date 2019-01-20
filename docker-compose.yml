@@ -10,6 +10,8 @@ services:
      ADONIS_SCAFFOLD: "fullstack"
     ports: 
       - 3333:3333
+    depends_on:
+      - db
 
   db:
     image: mysql:5.7

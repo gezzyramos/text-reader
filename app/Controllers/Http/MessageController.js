@@ -9,6 +9,7 @@ class MessageController {
    * GET messages
    */
   async index ({ request, response, view }) {
+      
   }
 
   /**

@@ -19,7 +19,7 @@ SPEECH_URL coloque sua url
 ----------------------------------------------------
 
 Após isso abra o terminal e vá até a raiz do projeto, estando lá 
-execute o comando "make-up" sem aspas.
+execute o comando "make up" sem aspas.
 
 Quando aparecer uma mensagem semelhante a "info: serving app on http://0.0.0.0:3333"
 basta abrir o browser no link que aparecer no terminal

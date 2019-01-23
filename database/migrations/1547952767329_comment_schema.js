@@ -2,9 +2,9 @@
 
 const Schema = use('Schema')
 
-class MessageSchema extends Schema {
+class CommentSchema extends Schema {
   up () {
-    this.create('messages', (table) => {
+    this.create('comments', (table) => {
       table.increments()
       table.string('text').notNullable()
       table.timestamps()
@@ -12,8 +12,8 @@ class MessageSchema extends Schema {
   }
 
   down () {
-    this.drop('messages')
+    this.drop('comments')
   }
 }
 
-module.exports = MessageSchema
+module.exports = CommentSchema

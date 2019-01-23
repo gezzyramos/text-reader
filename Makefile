@@ -1,4 +1,4 @@
-USER=drupal
+USER=node
 
 up:
 	docker-compose up --build
@@ -16,4 +16,4 @@ sh\:db:
 	docker-compose exec db bash
 
 migrate:
-	docker-compose exec --user=${USER} application php artisan migrate
+	docker-compose exec --user=${USER} adonis adonis migration:run

@@ -1,7 +1,10 @@
 # Text Reader
 
 Para executar o sistema é necessário que tenha o docker instalado na máquina
+
 Link para instalar o docker e docker-compose
+
+https://docs.docker.com/compose/install
 
 Após a instalação renomeie o arquivo .env.example para .env
 

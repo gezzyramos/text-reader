@@ -6,6 +6,8 @@ Link para instalar o docker e docker-compose
 
 https://docs.docker.com/compose/install
 
+----------------------------------------------------
+
 Após a instalação renomeie o arquivo .env.example para .env
 
 Insira sua chave do "Text to Speech" no .env

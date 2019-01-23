@@ -90,8 +90,8 @@ class CommentController {
         const commentText = comment.text
 
         var textToSpeech = new TextToSpeechV1({
-            iam_apikey: Env.get('SPEECH_KAY'), //'1frspVnNKUs9xCK8Fcu9lpJj5DAFL_sePa-fzgYoEq_T',
-            url: Env.get('SPEECH_URL') //'https://stream.watsonplatform.net/text-to-speech/api'
+            iam_apikey: Env.get('SPEECH_KAY'),
+            url: Env.get('SPEECH_URL')
         })
 
         var synthesizeParams = {

@@ -16,6 +16,8 @@ SPEECH_KAY coloque sua chave
 
 SPEECH_URL coloque sua url
 
+----------------------------------------------------
+
 Após isso abra o terminal e vá até a raiz do projeto, estando lá 
 execute o comando "make-up" sem aspas.
 

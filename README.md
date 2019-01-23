@@ -5,9 +5,10 @@ Link para instalar o docker e docker-compose
 
 Após a instalação renomeie o arquivo .env.example para .env
 
-Insira sua chave do Text to Speech no .env
+Insira sua chave do "Text to Speech" no .env
 
 SPEECH_KAY coloque sua chave
+
 SPEECH_URL coloque sua url
 
 Após isso abra o terminal e vá até a raiz do projeto, estando lá 

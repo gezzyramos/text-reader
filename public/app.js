@@ -109,8 +109,9 @@
             doRequest(null, "DELETE", `comments/${commentId}`,
                 (result) => {
                     $(`#comment-${result.id}`).remove();
-                    hasComment();
-                    insertEmptyListMessage();
+                    if(!hasComment()) {
+                        insertEmptyListMessage();
+                    }
                 },
                 (error) => {
                     console.log(error);

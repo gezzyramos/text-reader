@@ -17,7 +17,6 @@ sh\:db:
 
 setup:
 	cp .env.example .env
-	docker-compose up
 
 migrate:
 	docker-compose exec --user=${USER} adonis adonis migration:run

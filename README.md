@@ -1,12 +1,8 @@
 # Text Reader
 
-Para executar o sistema é necessário que tenha o docker instalado na máquina
-
-Link para instalar o docker e docker-compose
-
-https://docs.docker.com/compose/install
-
-https://docs.docker.com/install/linux/docker-ce/ubuntu/
+Para executar instale o
+[Docker](https://docs.docker.com/compose/install) e
+[Docker Compose](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 ----------------------------------------------------
 
